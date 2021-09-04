@@ -47,7 +47,7 @@ func main() {
         if UserGuessedNo == randomnumber {
             DidYouGetItRight = "Omg you did it...hacking prob" //if number guessed == number generated
         } else {
-            if rngFindingClueMethod() == 0 { //if method of clue expression = "how much off"
+            if rngFindingClueMethod() == 1 { //if method of clue expression = "how much off"
                 let differenceplusminus : Int = UserGuessedNo - randomnumber // diff +-
                 DidYouGetItRight = "You were \(abs(differenceplusminus)) off...so close" // dc
             } else {
