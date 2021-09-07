@@ -5,3 +5,4 @@ My personal journey to learning swift
 
 This project is about guessing the randomly generated number.
 
+Hi
