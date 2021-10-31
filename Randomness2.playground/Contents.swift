@@ -35,9 +35,4 @@ func main() {
     print(DidYouGetItRight!)
 }
 
-
-for number in 1...10 {
-    UserGuessedNo = number
-    main()
-}
-
+main()
